@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <h4>Step 6 - Now we need to create an entity in keyrock, because to perform the configuration of Wilma it will be necessary to get an access token, generated in the keyrock. Follow the steps below:</h4>
   <ul>
     <li>The first step is to log into the keyrock using the browser, typing the IP of the machine :3000</li>
-    <li>Log in user: admin@test.com and password: 1234</li>
+    <li>Sign in user: admin@test.com and password: 1234</li>
     <li>Follow the images below to get the necessary tokens</li>
 
   </ul>
