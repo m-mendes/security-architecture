@@ -1,4 +1,4 @@
-h1>Implementation of authentication and authorization mechanisms on Helix Sandbox-NG Platform</h1>
+<h1>Implementation of authentication and authorization mechanisms on Helix Sandbox-NG Platform</h1>
 <h3>Project contributors:</h3>
 <p>This project was developed by the students <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank">, as an undergraduate project guided by <a  href="http://lattes.cnpq.br/3044213933175294" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
 <ul>
