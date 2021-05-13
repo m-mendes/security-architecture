@@ -25,7 +25,7 @@
 
 
 
-<p><h4>Step 2 - We need to download the security files, if you have the helix installed, we will use the requirements.sh file, if it is necessary the installation of helix will need to use the file requirements_sem_helix.sh</h4>
+<p><h4>Step 2 - We need to download the security files, if you have the helix installed, we will use the requirements.sh file, if it is necessary the installation of helix will need to use the file requirements_without_helix.sh</h4>
 
 To get the files type the command:
  <ul>
