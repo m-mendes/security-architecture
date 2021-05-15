@@ -1,7 +1,7 @@
 <h1>Implementation of authentication and authorization mechanisms on Helix Sandbox-NG Platform</h1>
 <p>Versão em Português: <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG</a></p>
 <h3>Project contributors:</h3>
-<p>This project was developed by the students <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank">, as an undergraduate project guided by <a  href="http://lattes.cnpq.br/3044213933175294" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
+<p>This project was developed by the students of <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank">Fatec São Caetano do Sul</a>, as an undergraduate project guided by <a  href="http://lattes.cnpq.br/3044213933175294" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
 <ul>
   <li><a  href="https://www.linkedin.com/in/felipe-cunha-7aa33935/" target="_blank">Felipe Matheus da Cunha</a></li>
   <li><a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/" target="_blank">João Vitor de Araujo Bonfim</a></li>
