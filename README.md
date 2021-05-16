@@ -83,9 +83,8 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <img src="https://user-images.githubusercontent.com/70486745/118415033-5c8fe200-b67e-11eb-852d-3b940f5ee4b1.png">
   <img src="https://user-images.githubusercontent.com/70486745/118415054-7df0ce00-b67e-11eb-9f96-57b152c0547f.jpg">
   <img src="https://user-images.githubusercontent.com/70486745/118415072-9a8d0600-b67e-11eb-9139-a24c624b31bf.png">
-  
-  
-  <img src="https://user-images.githubusercontent.com/70486745/117068088-345cc680-ad01-11eb-995b-5690c9a5fd52.PNG">
+
+  <img src="https://user-images.githubusercontent.com/70486745/118415157-27d05a80-b67f-11eb-9a55-35cf5867825f.png">
   <h4>Save tokens in notepad, they will be used in step 7</h4>
 
 
