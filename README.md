@@ -80,11 +80,11 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
 
   </ul>
   <img src="https://user-images.githubusercontent.com/70486745/117065150-7b48bd00-acfd-11eb-98b0-2922dfc977c3.PNG">
-
-  <img src="https://user-images.githubusercontent.com/70486745/118415003-310cf780-b67e-11eb-8b5e-87e28116a5da.jpg">
-  <img src="https://user-images.githubusercontent.com/70486745/117066516-332a9a00-acff-11eb-9a7f-cdb483ec5c02.PNG">
-  <img src="https://user-images.githubusercontent.com/70486745/117067012-daa7cc80-acff-11eb-900f-ba50eb7486e5.jpg">
-  <img src="https://user-images.githubusercontent.com/70486745/117067620-a2ed5480-ad00-11eb-9a95-80e19c928550.PNG">
+  <img src="https://user-images.githubusercontent.com/70486745/118415033-5c8fe200-b67e-11eb-852d-3b940f5ee4b1.png">
+  <img src="https://user-images.githubusercontent.com/70486745/118415054-7df0ce00-b67e-11eb-9f96-57b152c0547f.jpg">
+  <img src="https://user-images.githubusercontent.com/70486745/118415072-9a8d0600-b67e-11eb-9139-a24c624b31bf.png">
+  <img src="https://user-images.githubusercontent.com/70486745/118415097-be504c00-b67e-11eb-83a9-2a6bfc27c602.png">
+  
   <img src="https://user-images.githubusercontent.com/70486745/117068088-345cc680-ad01-11eb-995b-5690c9a5fd52.PNG">
   <h4>Save tokens in notepad, they will be used in step 7</h4>
 
