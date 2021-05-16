@@ -99,7 +99,8 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <li>On line 15 inform the IP of the machine that the keyrock is active.</li>
   <li>On line 21 inform the IP that the context broker is active.</li>
   <li>On line 33, 34 and 35 you will be informed of the credentials generated in keyrock in the previous step.</li>
-  <img src="https://user-images.githubusercontent.com/70486745/117068954-45f29e00-ad02-11eb-905c-2a207dfb9689.PNG">
+  <img src="https://user-images.githubusercontent.com/70486745/118415191-54847200-b67f-11eb-8d4c-9acff5a4faaa.png">
+
   <li>On line 58 inform the IP that Authzforce is active.</li>
   <li>Save the file: CTRL+O > ENTER > CTRL X</li>
   <li>Note: Get the path with the PWD command and paste in the command below in the field {PATH}</li>
@@ -117,8 +118,10 @@ https://www.youtube.com/watch?v=aTkyHVxOqCo&feature=youtu.be
 
 
 <p>Step 8 - Now we will get the Keyrock access token, follow the following images to get the APP ID and SECRET ID:<h4></h4></p>
-<img src="https://user-images.githubusercontent.com/70486745/117069768-47709600-ad03-11eb-85c3-f8a522b7e6da.PNG">
-<img src="https://user-images.githubusercontent.com/70486745/117070473-28263880-ad04-11eb-9804-3eeff16f4fd3.PNG">
+
+<img src="https://user-images.githubusercontent.com/70486745/118415226-99100d80-b67f-11eb-8459-1caa9aa6b55f.png">
+
+<img src="https://user-images.githubusercontent.com/70486745/118415239-af1dce00-b67f-11eb-8be6-abb28743cf27.png">
 With these tokens in hand we will generate a base64 to request the access token  to the keyrock. use the echo below by changing the APP ID and SECRET that was obtained<br><br>
 
 <h4><strong>Note: Use the file validation, contained in the repositorio to do the tests</strong></h4>
@@ -145,15 +148,21 @@ curl --location --request GET 'http://<strong>{IP}</strong>:1027/v2/entities' \ 
 --header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'<br>
 <br>
 <h4>As a test to check whether Authzforce is receiving rules from keyrock, follow the next step by step to create the rule in Keyrock and it re-passes authzforce</h4>
-<img src="https://user-images.githubusercontent.com/70486745/117084099-a7c00180-ad1c-11eb-824a-56e15fd210d3.png">
-<img src="https://user-images.githubusercontent.com/70486745/117084359-63813100-ad1d-11eb-9d3f-b32430dadd13.png">
-<img src="https://user-images.githubusercontent.com/70486745/117084609-02a62880-ad1e-11eb-9077-392ac54f737e.PNG">
+
+
+<img src="https://user-images.githubusercontent.com/70486745/118415282-d8d6f500-b67f-11eb-9841-ee3cb5ba4317.png">
+<img src="https://user-images.githubusercontent.com/70486745/118415300-f0ae7900-b67f-11eb-9ab2-c243f54e8139.png">
+<img src="https://user-images.githubusercontent.com/70486745/118415323-0a4fc080-b680-11eb-8ff0-c2e792ad18fd.png">
 <img src="https://user-images.githubusercontent.com/70486745/117084763-721c1800-ad1e-11eb-9d61-c64644a5873f.PNG">
+
 <p>In this step we will create the rule in Keyrock to be transmitted to Authzforce, Enter the name of the rule, a description and the XACML code used in the example that is available in the file access_rule.xacml</p>
 <h5>Note: You will need to edit the Client ID of the XACML file on line 25</h5>
-<img src="https://user-images.githubusercontent.com/70486745/117085697-d8099f00-ad20-11eb-979c-3f70e051ccff.PNG">
-<img src="https://user-images.githubusercontent.com/70486745/117085858-56fed780-ad21-11eb-8aff-85a48410756c.png">
-<img src="https://user-images.githubusercontent.com/70486745/117086043-dd1b1e00-ad21-11eb-8079-6b0bd7502a57.png">
+
+
+<img src="(https://user-images.githubusercontent.com/70486745/118415359-3d924f80-b680-11eb-8b7a-f9b83506032d.png">
+<img src="https://user-images.githubusercontent.com/70486745/118415371-500c8900-b680-11eb-8656-0484b61c0d54.png">
+
+<img src="https://user-images.githubusercontent.com/70486745/118415385-661a4980-b680-11eb-86b0-3b3b0e0be998.png">
 <p>After clicking save, Authzforce will already receive and create the domain for the entity.</p>
 <h5>Validation of the reading rule</h5>
 <p>Resubmit the command used in the previous step for connection validation, the expected return should be the information in the helix entity.</p>
