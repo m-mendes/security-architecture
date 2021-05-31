@@ -11,7 +11,7 @@
 <h3>Project description:</h3>
 <p>The architecture presented performs the implementation of FIWARE security solutions without the need for changes in the helix platform structure, where the user now has access to visualize the operation of Context Broker, but when performing the creation of entities in the Context broker it is necessary to authenticate in the environment.‎</p>
   <p>Previously the IoT device when communicating with the platform to make changes, had a direct communication with Context Broker occurred without the need for authentication, after deployment, the device begins to authenticate to read of existing information in the database, write new information on the database, or change existing information.‎</p>
-  <p>For the elaboration of the architecture were used three FIWARE solutions, which are: Keyrock, AuthzForce, and Wilma Pep-Proxy, each responsible for a step in the system. Keyrock is an identity manager, where the identities that will be registered in Helix must be created to receive authorization in the environment, along with the account of administrators who will make changes to the environment. Authzforce is a Policy decision point (PDP) that will make decisions based on previously created policies. And finally, the Wilma Pep-Proxy which is a PEP (Policy enforcement point) that will have the function of intercepting traffic and consulting the Authzforce and Keyrcok to identify if the device that is trying to communicate with the context broker is authorized to perform the connection, and permission to perform actions on the Helix platform.‎</p>
+  <p>For the elaboration of the architecture were used three FIWARE solutions, which are: Keyrock, AuthzForce, and Wilma Pep-Proxy, each one responsible for a step in the system. Keyrock is an identity manager, where the identities that will be registered in Helix must be created to receive authorization in the environment, along with the account of administrators who will make changes to the environment. Authzforce is a Policy decision point (PDP) that will make decisions based on previously created policies. And finally, the Wilma Pep-Proxy which is a PEP (Policy enforcement point) that will have the function of intercepting traffic and consulting the Authzforce and Keyrcok to identify if the device that is trying to communicate with the context broker is authorized to perform the connection, and permission to perform actions on the Helix platform.‎</p>
   <img src="https://user-images.githubusercontent.com/70486745/117086554-3768ae80-ad23-11eb-8cb2-30b9584b6bd9.jpg">
 <h3>Step by step:</h3>
 
@@ -36,7 +36,7 @@ To get the files type the command:
  </p> 
 
 <p><h4>Step 3 - If you already have helix installed and have activated Context Broker skip to step 4</h4>
-  <h4>For those who dosn't have already, follow helix's GitHub walkthrough to activate Context Broker
+  <h4>For those who don't have already, follow helix's GitHub walkthrough to activate Context Broker
 <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/docs/create_cef_context_broker.md">Creating a CEF Context Broker</a></h4>
 <h4>To validate the connection follow the following walkthrough:</h4>
 <p> Copy the file creating_entity_on_helix to the notebook and change the IP
