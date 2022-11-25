@@ -30,8 +30,8 @@
 
 To get the files type the command:
  <ul>
-  <li>sudo chmod 777 requirements.sh ou requirements_without_helix.sh</li>
-  <li>./requirements.sh ou requirements_without_helix.sh</li> 
+  <li>sudo chmod 777 requirements.sh or requirements_without_helix.sh</li>
+  <li>./requirements.sh or requirements_without_helix.sh</li> 
 </ul>
  </p> 
 
